@@ -1,0 +1,83 @@
+﻿@page "/Account/RegisterConfirmation"
+@layout Gestao.Components.Layout.Default.DefaultLayout
+
+@using System.Text
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.WebUtilities
+@using Gestao.Data
+
+@inject UserManager<ApplicationUser> UserManager
+@inject IEmailSender<ApplicationUser> EmailSender
+@inject NavigationManager NavigationManager
+@inject IdentityRedirectManager RedirectManager
+
+<PageTitle>Confirmação de Cadastro</PageTitle>
+
+<div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6 col-xl-5">
+        <div class="card mt-4 card-bg-fill">
+
+            <div class="card-body p-4">
+                <h5 class="text-primary">Reenvio do e-mail de confirmação</h5>
+                <StatusMessage Message="@statusMessage" />
+                @if (emailConfirmationLink is not null)
+                {
+                    <p>
+                        No momento, este aplicativo não possui um remetente de e-mail real registrado. Consulte <a href="https://aka.ms/aspaccountconf">estes documentos</a> para saber como configurar um remetente de e-mail real.
+                        Normalmente, isso seria enviado por e-mail: <a href="@emailConfirmationLink">Clique aqui para confirmar sua conta</a>
+                    </p>
+                }
+                else
+                {
+                    <p>Please check your email to confirm your account.</p>
+                }
+            </div>
+            <!-- end card body -->
+        </div>
+        <!-- end card -->
+
+        <div class="mt-2 text-center">
+            <a href="Account/Login" class="fw-semibold text-primary text-decoration-underline"> Voltar </a>
+        </div>
+
+    </div>
+</div>
+
+@code {
+    private string? emailConfirmationLink;
+    private string? statusMessage;
+
+    [CascadingParameter]
+    private HttpContext HttpContext { get; set; } = default!;
+
+    [SupplyParameterFromQuery]
+    private string? Email { get; set; }
+
+    [SupplyParameterFromQuery]
+    private string? ReturnUrl { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (Email is null)
+        {
+            RedirectManager.RedirectTo("");
+        }
+
+        var user = await UserManager.FindByEmailAsync(Email);
+        if (user is null)
+        {
+            HttpContext.Response.StatusCode = StatusCodes.Status404NotFound;
+            statusMessage = "Error finding user for unspecified email";
+        }
+        else if (EmailSender is IdentityNoOpEmailSender)
+        {
+            // Once you add a real email sender, you should remove this code that lets you confirm the account
+            var userId = await UserManager.GetUserIdAsync(user);
+            var code = await UserManager.GenerateEmailConfirmationTokenAsync(user);
+            code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
+            emailConfirmationLink = NavigationManager.GetUriWithQueryParameters(
+                NavigationManager.ToAbsoluteUri("Account/ConfirmEmail").AbsoluteUri,
+                new Dictionary<string, object?> { ["userId"] = userId, ["code"] = code, ["returnUrl"] = ReturnUrl });
+        }
+    }
+}
