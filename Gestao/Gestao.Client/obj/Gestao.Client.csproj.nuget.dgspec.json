@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao.Client\\Gestao.Client.csproj": {}
+    "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao.Client\\Gestao.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao.Client\\Gestao.Client.csproj": {
+    "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao.Client\\Gestao.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao.Client\\Gestao.Client.csproj",
+        "projectUniqueName": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao.Client\\Gestao.Client.csproj",
         "projectName": "Gestao.Client",
-        "projectPath": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao.Client\\Gestao.Client.csproj",
+        "projectPath": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao.Client\\Gestao.Client.csproj",
         "packagesPath": "C:\\Users\\kelvin.rocha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao.Client\\obj\\",
+        "outputPath": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

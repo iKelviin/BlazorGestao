@@ -1,46 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\",
+  "WorkspaceRootPath": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin.rocha\\documents\\github\\blazor\\gestao\\gestao\\gestao\\components\\account\\pages\\confirmemail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\components\\account\\pages\\confirmemail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin.rocha\\documents\\github\\blazor\\blazorgestao\\gestao\\gestao\\components\\account\\pages\\externallogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\components\\account\\pages\\externallogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin.rocha\\documents\\github\\blazor\\gestao\\gestao\\gestao\\components\\account\\pages\\registerconfirmation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\components\\account\\pages\\registerconfirmation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin.rocha\\documents\\github\\blazor\\gestao\\gestao\\gestao\\components\\account\\pages\\resendemailconfirmation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\components\\account\\pages\\resendemailconfirmation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin.rocha\\documents\\github\\blazor\\gestao\\gestao\\gestao\\components\\layout\\default\\defaultlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\components\\layout\\default\\defaultlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin.rocha\\documents\\github\\blazor\\gestao\\gestao\\gestao\\components\\account\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin.rocha\\documents\\github\\blazor\\blazorgestao\\gestao\\gestao\\components\\account\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\components\\account\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin.rocha\\documents\\github\\blazor\\gestao\\gestao\\gestao\\components\\account\\pages\\forgotpassword.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\components\\account\\pages\\forgotpassword.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin.rocha\\documents\\github\\blazor\\blazorgestao\\gestao\\gestao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin.rocha\\documents\\github\\blazor\\gestao\\gestao\\gestao\\components\\account\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\components\\account\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin.rocha\\documents\\github\\blazor\\gestao\\gestao\\gestao\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72A3CEBF-FAA2-4471-B6CC-02F553B393EA}|Gestao\\Gestao.Client\\Gestao.Client.csproj|c:\\users\\kelvin.rocha\\documents\\github\\blazor\\gestao\\gestao\\gestao.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{72A3CEBF-FAA2-4471-B6CC-02F553B393EA}|Gestao\\Gestao.Client\\Gestao.Client.csproj|solutionrelative:gestao\\gestao.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin.rocha\\documents\\github\\blazor\\gestao\\gestao\\gestao\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin.rocha\\documents\\github\\blazor\\blazorgestao\\gestao\\gestao\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -95,131 +71,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ConfirmEmail.razor",
-              "DocumentMoniker": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao\\Components\\Account\\Pages\\ConfirmEmail.razor",
-              "RelativeDocumentMoniker": "Gestao\\Gestao\\Components\\Account\\Pages\\ConfirmEmail.razor",
-              "ToolTip": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao\\Components\\Account\\Pages\\ConfirmEmail.razor",
-              "RelativeToolTip": "Gestao\\Gestao\\Components\\Account\\Pages\\ConfirmEmail.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAHAAAA",
+              "Title": "ExternalLogin.razor",
+              "DocumentMoniker": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao\\Components\\Account\\Pages\\ExternalLogin.razor",
+              "RelativeDocumentMoniker": "Gestao\\Gestao\\Components\\Account\\Pages\\ExternalLogin.razor",
+              "ToolTip": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao\\Components\\Account\\Pages\\ExternalLogin.razor",
+              "RelativeToolTip": "Gestao\\Gestao\\Components\\Account\\Pages\\ExternalLogin.razor",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAAAKMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-29T08:17:11.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterConfirmation.razor",
-              "DocumentMoniker": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao\\Components\\Account\\Pages\\RegisterConfirmation.razor",
-              "RelativeDocumentMoniker": "Gestao\\Gestao\\Components\\Account\\Pages\\RegisterConfirmation.razor",
-              "ToolTip": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao\\Components\\Account\\Pages\\RegisterConfirmation.razor",
-              "RelativeToolTip": "Gestao\\Gestao\\Components\\Account\\Pages\\RegisterConfirmation.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAACNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-29T08:03:26.781Z",
+              "WhenOpened": "2024-10-03T08:08:57.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ResendEmailConfirmation.razor",
-              "DocumentMoniker": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao\\Components\\Account\\Pages\\ResendEmailConfirmation.razor",
-              "RelativeDocumentMoniker": "Gestao\\Gestao\\Components\\Account\\Pages\\ResendEmailConfirmation.razor",
-              "ToolTip": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao\\Components\\Account\\Pages\\ResendEmailConfirmation.razor",
-              "RelativeToolTip": "Gestao\\Gestao\\Components\\Account\\Pages\\ResendEmailConfirmation.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-29T07:46:26.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao\\Components\\App.razor",
-              "RelativeDocumentMoniker": "Gestao\\Gestao\\Components\\App.razor",
-              "ToolTip": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao\\Components\\App.razor",
-              "RelativeToolTip": "Gestao\\Gestao\\Components\\App.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-29T06:58:24.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Counter.razor",
-              "DocumentMoniker": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao.Client\\Pages\\Counter.razor",
-              "RelativeDocumentMoniker": "Gestao\\Gestao.Client\\Pages\\Counter.razor",
-              "ToolTip": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao.Client\\Pages\\Counter.razor",
-              "RelativeToolTip": "Gestao\\Gestao.Client\\Pages\\Counter.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-29T04:11:44.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ForgotPassword.razor",
-              "DocumentMoniker": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao\\Components\\Account\\Pages\\ForgotPassword.razor",
-              "RelativeDocumentMoniker": "Gestao\\Gestao\\Components\\Account\\Pages\\ForgotPassword.razor",
-              "ToolTip": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao\\Components\\Account\\Pages\\ForgotPassword.razor",
-              "RelativeToolTip": "Gestao\\Gestao\\Components\\Account\\Pages\\ForgotPassword.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-29T03:51:11.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Register.razor",
-              "DocumentMoniker": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao\\Components\\Account\\Pages\\Register.razor",
-              "RelativeDocumentMoniker": "Gestao\\Gestao\\Components\\Account\\Pages\\Register.razor",
-              "ToolTip": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao\\Components\\Account\\Pages\\Register.razor",
-              "RelativeToolTip": "Gestao\\Gestao\\Components\\Account\\Pages\\Register.razor",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAFUAAACZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-29T03:50:51.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.razor",
-              "DocumentMoniker": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao\\Components\\Account\\Pages\\Login.razor",
-              "RelativeDocumentMoniker": "Gestao\\Gestao\\Components\\Account\\Pages\\Login.razor",
-              "ToolTip": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao\\Components\\Account\\Pages\\Login.razor",
-              "RelativeToolTip": "Gestao\\Gestao\\Components\\Account\\Pages\\Login.razor",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAABwAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-29T03:50:36.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Routes.razor",
-              "DocumentMoniker": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao\\Components\\Routes.razor",
-              "RelativeDocumentMoniker": "Gestao\\Gestao\\Components\\Routes.razor",
-              "ToolTip": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao\\Components\\Routes.razor",
-              "RelativeToolTip": "Gestao\\Gestao\\Components\\Routes.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-29T03:50:14.785Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao\\Program.cs",
+              "RelativeDocumentMoniker": "Gestao\\Gestao\\Program.cs",
+              "ToolTip": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao\\Program.cs",
+              "RelativeToolTip": "Gestao\\Gestao\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:57:26.917Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DefaultLayout.razor",
-              "DocumentMoniker": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao\\Components\\Layout\\Default\\DefaultLayout.razor",
-              "RelativeDocumentMoniker": "Gestao\\Gestao\\Components\\Layout\\Default\\DefaultLayout.razor",
-              "ToolTip": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\Gestao\\Gestao\\Gestao\\Components\\Layout\\Default\\DefaultLayout.razor",
-              "RelativeToolTip": "Gestao\\Gestao\\Components\\Layout\\Default\\DefaultLayout.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAnAAAA",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao\\appsettings.json",
+              "RelativeDocumentMoniker": "Gestao\\Gestao\\appsettings.json",
+              "ToolTip": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao\\appsettings.json",
+              "RelativeToolTip": "Gestao\\Gestao\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-03T07:56:48.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao\\Components\\Account\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "Gestao\\Gestao\\Components\\Account\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao\\Components\\Account\\Pages\\Login.razor",
+              "RelativeToolTip": "Gestao\\Gestao\\Components\\Account\\Pages\\Login.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-29T03:49:44.102Z",
+              "WhenOpened": "2024-10-03T07:50:17.932Z",
               "EditorCaption": ""
             }
           ]

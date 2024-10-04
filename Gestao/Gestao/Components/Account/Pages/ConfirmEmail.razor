@@ -1,4 +1,5 @@
 ﻿@page "/Account/ConfirmEmail"
+@layout Gestao.Components.Layout.Default.DefaultLayout
 
 @using System.Text
 @using Microsoft.AspNetCore.Identity
@@ -8,10 +9,32 @@
 @inject UserManager<ApplicationUser> UserManager
 @inject IdentityRedirectManager RedirectManager
 
-<PageTitle>Confirmação de E-mail</PageTitle>
+<PageTitle>E-mail Confirmado</PageTitle>
 
-<h1>Confirmação de E-mail</h1>
-<StatusMessage Message="@statusMessage" />
+<div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6 col-xl-5">
+        <div class="card mt-4 card-bg-fill">
+
+            <div class="card-body p-4">
+                <h5>E-mail Confirmado</h5>
+                <div class="text-center mt-2">
+                    <lord-icon src="https://cdn.lordicon.com/rhvddzym.json" trigger="loop" colors="primary:#0ab39c" class="avatar-xl"></lord-icon>
+                </div>
+                <div class="p-2">
+                    <StatusMessage Message="@statusMessage" />
+                </div>
+            </div>
+            <!-- end card body -->
+        </div>
+        <!-- end card -->
+
+        <div class="mt-2 text-center">
+            <a href="Account/Login" class="fw-semibold text-primary text-decoration-underline"> Voltar </a>
+        </div>
+
+    </div>
+</div>
+
 
 @code {
     private string? statusMessage;

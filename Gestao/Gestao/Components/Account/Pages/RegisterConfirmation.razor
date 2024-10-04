@@ -18,8 +18,13 @@
         <div class="card mt-4 card-bg-fill">
 
             <div class="card-body p-4">
-                <h5 class="text-primary">Reenvio do e-mail de confirmação</h5>
-                <StatusMessage Message="@statusMessage" />
+                <h5 class="text-primary">Confirmação de Cadastro</h5>
+                <div class="text-center mt-2">
+                    <lord-icon src="https://cdn.lordicon.com/rhvddzym.json" trigger="loop" colors="primary:#0ab39c" class="avatar-xl"></lord-icon>
+                </div>
+                <div class="p-2">
+                    <StatusMessage Message="@statusMessage" />
+                </div>
                 @if (emailConfirmationLink is not null)
                 {
                     <p>
@@ -29,7 +34,7 @@
                 }
                 else
                 {
-                    <p>Please check your email to confirm your account.</p>
+                    <p>Verifique seu e-mail para confirmar sua conta.</p>
                 }
             </div>
             <!-- end card body -->
@@ -67,7 +72,7 @@
         if (user is null)
         {
             HttpContext.Response.StatusCode = StatusCodes.Status404NotFound;
-            statusMessage = "Error finding user for unspecified email";
+            statusMessage = "Erro ao localizar usuário para e-mail especificado";
         }
         else if (EmailSender is IdentityNoOpEmailSender)
         {

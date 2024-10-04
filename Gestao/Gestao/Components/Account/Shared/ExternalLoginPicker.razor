@@ -9,8 +9,10 @@
 {
     <div>
         <p>
-            There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">article
-            about setting up this ASP.NET application to support logging in via external services</a>.
+            There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">
+                article
+                about setting up this ASP.NET application to support logging in via external services
+            </a>.
         </p>
     </div>
 }
@@ -23,7 +25,22 @@ else
             <p>
                 @foreach (var provider in externalLogins)
                 {
-                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                    if (provider.Name == "Google")
+                    {
+                        <button type="submit" name="provider" value="@provider.Name" title="Faça login usando sua conta @provider.DisplayName" class="btn btn-danger btn-icon waves-effect waves-light mx-1"><i class="ri-google-fill fs-16"></i></button>
+                    }
+                    else if (provider.Name == "Facebook")
+                    {
+                        <button type="submit" name="provider" value="@provider.Name" title="Faça login usando sua conta @provider.DisplayName" class="btn btn-primary btn-icon waves-effect waves-light mx-1"><i class="ri-facebook-fill fs-16"></i></button>
+                    }
+                    else if (provider.Name == "Microsoft")
+                    {
+                        <button type="submit" name="provider" value="@provider.Name" title="Faça login usando sua conta @provider.DisplayName" class="btn btn-dark btn-icon waves-effect waves-light mx-1"><i class="ri-microsoft-fill fs-16"></i></button>
+                    }
+                    else
+                    {
+                        <button type="submit" class="btn btn-primary mx-1" name="provider" value="@provider.Name" title="Faça login usando sua conta @provider.DisplayName">@provider.DisplayName</button>
+                    }
                 }
             </p>
         </div>

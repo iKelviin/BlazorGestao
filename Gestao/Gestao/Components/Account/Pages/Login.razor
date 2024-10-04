@@ -21,7 +21,7 @@
             <div class="card-body p-4">
                 <div class="text-center mt-2">
                     <h5 class="text-primary">Bem-vindo!</h5>
-                    <p class="text-muted">Acesso sua conta.</p>
+                    <p class="text-muted">Acesse sua conta.</p>
                 </div>
                 <div class="p-2 mt-4">
                     <StatusMessage Message="@errorMessage" />
@@ -61,14 +61,9 @@
                         <div class="signin-other-title">
                             <h5 class="fs-13 mb-4 title">Acessar com</h5>
                         </div>
-                        <div>
-                            <button type="button" class="btn btn-primary btn-icon waves-effect waves-light"><i class="ri-facebook-fill fs-16"></i></button>
-                            <button type="button" class="btn btn-danger btn-icon waves-effect waves-light"><i class="ri-google-fill fs-16"></i></button>
-                            <button type="button" class="btn btn-dark btn-icon waves-effect waves-light"><i class="ri-github-fill fs-16"></i></button>
-                            <button type="button" class="btn btn-info btn-icon waves-effect waves-light"><i class="ri-twitter-fill fs-16"></i></button>
-                        </div>
+
+                        <ExternalLoginPicker />
                     </div>
-                    <ExternalLoginPicker />
                 </div>
             </div>
             <!-- end card body -->
