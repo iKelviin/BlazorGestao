@@ -17,6 +17,7 @@
 @inject IdentityRedirectManager RedirectManager
 @inject ILogger<ExternalLogin> Logger
 
+@*
 <PageTitle>Cadastre-se</PageTitle>
 
 <div class="row justify-content-center">
@@ -57,7 +58,7 @@
 
     </div>
 </div>
-
+*@
 @code {
     public const string LoginCallbackAction = "LoginCallback";
 
@@ -108,6 +109,7 @@
             // the login page if we get here some other way.
             RedirectManager.RedirectTo("Account/Login");
         }
+        await OnAutomaticLoginAsync();
     }
 
     private async Task OnLoginCallbackAsync()
@@ -139,7 +141,7 @@
         }
     }
 
-    private async Task OnValidSubmitAsync()
+    private async Task OnAutomaticLoginAsync()
     {
         var appUser = await UserManager.FindByEmailAsync(Input.Email);
 
@@ -151,8 +153,13 @@
             if (socialLoginAppUser is not null)
             {
                 // Mandar o Usuario para o Painel de Controle
+                if (UserManager.Options.SignIn.RequireConfirmedAccount)
+                {
+                    await SendConfirmationEmailAsync(socialLoginAppUser);
+                    RedirectManager.RedirectTo("Account/RegisterConfirmation", new() { ["email"] = Input.Email });
+                }
                 await SignInManager.SignInAsync(socialLoginAppUser, isPersistent: false, externalLoginInfo.LoginProvider);
-                RedirectManager.RedirectTo(ReturnUrl);
+                RedirectManager.RedirectTo("/");
             }
             else
             {
@@ -160,16 +167,16 @@
                 var result = await UserManager.AddLoginAsync(appUser, externalLoginInfo);
                 if (result.Succeeded)
                 {
-                    await SignInManager.SignInAsync(appUser, isPersistent: false, externalLoginInfo.LoginProvider);
-
                     // If account confirmation is required, we need to show the link if we don't have a real email sender
                     if (UserManager.Options.SignIn.RequireConfirmedAccount)
                     {
+                        await SendConfirmationEmailAsync(appUser);
                         RedirectManager.RedirectTo("Account/RegisterConfirmation", new() { ["email"] = Input.Email });
                     }
                     else
                     {
-                        RedirectManager.RedirectTo(ReturnUrl);
+                        await SignInManager.SignInAsync(appUser, isPersistent: false, externalLoginInfo.LoginProvider);
+                        RedirectManager.RedirectTo("/");
                     }
                 }
             }
@@ -178,6 +185,18 @@
         {
             await CreateUserInStore();
         }
+    }
+
+    private async Task SendConfirmationEmailAsync(ApplicationUser user)
+    {
+        var userId = await UserManager.GetUserIdAsync(user);
+        var code = await UserManager.GenerateEmailConfirmationTokenAsync(user);
+        code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
+
+        var callbackUrl = NavigationManager.GetUriWithQueryParameters(
+            NavigationManager.ToAbsoluteUri("Account/ConfirmEmail").AbsoluteUri,
+            new Dictionary<string, object?> { ["userId"] = userId, ["code"] = code });
+        await EmailSender.SendConfirmationLinkAsync(user, Input.Email, HtmlEncoder.Default.Encode(callbackUrl));
     }
 
     private async Task CreateUserInStore()
@@ -196,14 +215,7 @@
             {
                 Logger.LogInformation("O usuário criou uma conta usando o provedor {Name}.", externalLoginInfo.LoginProvider);
 
-                var userId = await UserManager.GetUserIdAsync(user);
-                var code = await UserManager.GenerateEmailConfirmationTokenAsync(user);
-                code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
-
-                var callbackUrl = NavigationManager.GetUriWithQueryParameters(
-                    NavigationManager.ToAbsoluteUri("Account/ConfirmEmail").AbsoluteUri,
-                    new Dictionary<string, object?> { ["userId"] = userId, ["code"] = code });
-                await EmailSender.SendConfirmationLinkAsync(user, Input.Email, HtmlEncoder.Default.Encode(callbackUrl));
+                await SendConfirmationEmailAsync(user);
 
                 // If account confirmation is required, we need to show the link if we don't have a real email sender
                 if (UserManager.Options.SignIn.RequireConfirmedAccount)
