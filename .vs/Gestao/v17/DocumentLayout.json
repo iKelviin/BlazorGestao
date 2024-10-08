@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin.rocha\\documents\\github\\blazor\\blazorgestao\\gestao\\gestao\\components\\layout\\admin\\navmenuitem.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\components\\layout\\admin\\navmenuitem.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin.rocha\\documents\\github\\blazor\\blazorgestao\\gestao\\gestao\\components\\layout\\admin\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\components\\layout\\admin\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -69,19 +73,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NavMenuItem.razor",
+              "DocumentMoniker": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao\\Components\\Layout\\Admin\\NavMenuItem.razor",
+              "RelativeDocumentMoniker": "Gestao\\Gestao\\Components\\Layout\\Admin\\NavMenuItem.razor",
+              "ToolTip": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao\\Components\\Layout\\Admin\\NavMenuItem.razor",
+              "RelativeToolTip": "Gestao\\Gestao\\Components\\Layout\\Admin\\NavMenuItem.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-08T01:07:55.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao\\Components\\Layout\\Admin\\NavMenu.razor",
               "RelativeDocumentMoniker": "Gestao\\Gestao\\Components\\Layout\\Admin\\NavMenu.razor",
               "ToolTip": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao\\Components\\Layout\\Admin\\NavMenu.razor",
               "RelativeToolTip": "Gestao\\Gestao\\Components\\Layout\\Admin\\NavMenu.razor",
-              "ViewState": "AQIAAB4DAAAAAAAAAAAswCUDAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-07T06:16:42.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao\\Components\\Layout\\Admin\\MainLayout.razor",
               "RelativeDocumentMoniker": "Gestao\\Gestao\\Components\\Layout\\Admin\\MainLayout.razor",
@@ -89,8 +106,7 @@
               "RelativeToolTip": "Gestao\\Gestao\\Components\\Layout\\Admin\\MainLayout.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-07T06:11:11.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T06:11:11.806Z"
             }
           ]
         }
