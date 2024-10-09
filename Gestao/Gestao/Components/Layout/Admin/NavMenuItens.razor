@@ -1,0 +1,83 @@
+﻿@implements IDisposable
+
+@inject NavigationManager NavigationManager
+
+<ul class="navbar-nav" id="navbar-nav">
+    <li class="menu-title"><span data-key="t-menu">Menu</span></li>
+    <li class="nav-item">
+        <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+            <i class="ri-dashboard-2-line"></i> <span>Painel</span>
+        </NavLink>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link menu-link" href="#sidebarManagement" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarDashboards">
+            <i class="ri-file-list-3-line"></i> <span>Cadastro</span>
+        </a>
+        <div class="collapse menu-dropdown" id="sidebarManagement">
+            <ul class="nav nav-sm flex-column">
+
+                <li class="nav-item">
+                    <NavLink class="nav-link" href="/Company/List">
+                        Empresa
+                    </NavLink>
+                </li>
+
+                <li class="nav-item">
+                    <NavLink class="nav-link" href="/Account/List">
+                        Conta
+                    </NavLink>
+                </li>
+                <li class="nav-item">
+                    <NavLink class="nav-link" href="/Category/List">
+                        Categoria
+                    </NavLink>
+                </li>
+                <li class="nav-item">
+                    <NavLink class="nav-link" href="auth">
+                        Auth Required
+                    </NavLink>
+                </li>
+                
+            </ul>
+        </div>
+    </li> <!-- end Dashboard Menu -->
+
+    <li class="nav-item">
+        <a class="nav-link menu-link" href="#sidebarAccount" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarLayouts">
+            <i class="ri-money-dollar-circle-line"></i> <span >Contas</span>
+        </a>
+        <div class="collapse menu-dropdown" id="sidebarAccount">
+            <ul class="nav nav-sm flex-column">
+                <li class="nav-item">
+                    <NavLink href="/Financial/Pay/List" class="nav-link">Pagar</NavLink>
+                </li>
+                <li class="nav-item">
+                    <NavLink href="/Financial/Receive/List" class="nav-link">Receber</NavLink>
+                </li>
+            </ul>
+        </div>
+    </li> <!-- end Dashboard Menu -->
+
+</ul>
+
+
+@code {
+    private string? currentUrl;
+
+    protected override void OnInitialized()
+    {
+        currentUrl = NavigationManager.ToBaseRelativePath(NavigationManager.Uri);
+        NavigationManager.LocationChanged += OnLocationChanged;
+    }
+
+    private void OnLocationChanged(object? sender, LocationChangedEventArgs e)
+    {
+        currentUrl = NavigationManager.ToBaseRelativePath(e.Location);
+        StateHasChanged();
+    }
+
+    public void Dispose()
+    {
+        NavigationManager.LocationChanged -= OnLocationChanged;
+    }
+}

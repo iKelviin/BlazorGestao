@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao\\Gestao.csproj": {}
+    "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Gestao.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao.Client\\Gestao.Client.csproj": {
+    "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao.Domain\\Gestao.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao.Client\\Gestao.Client.csproj",
-        "projectName": "Gestao.Client",
-        "projectPath": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao.Client\\Gestao.Client.csproj",
-        "packagesPath": "C:\\Users\\kelvin.rocha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao.Client\\obj\\",
+        "projectUniqueName": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao.Domain\\Gestao.Domain.csproj",
+        "projectName": "Gestao.Domain",
+        "projectPath": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao.Domain\\Gestao.Domain.csproj",
+        "packagesPath": "C:\\Users\\Kelvin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kelvin.rocha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kelvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -50,6 +50,81 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\Gestao.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\Gestao.Client.csproj",
+        "projectName": "Gestao.Client",
+        "projectPath": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\Gestao.Client.csproj",
+        "packagesPath": "C:\\Users\\Kelvin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kelvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao.Domain\\Gestao.Domain.csproj": {
+                "projectPath": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao.Domain\\Gestao.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[8.0.7, )"
@@ -61,13 +136,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.7, )",
+              "version": "[8.0.10, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.7, )",
+              "version": "[8.0.10, )",
               "autoReferenced": true
             }
           },
@@ -85,7 +160,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.7, 8.0.7]"
+              "version": "[8.0.10, 8.0.10]"
             }
           ],
           "frameworkReferences": {
@@ -93,7 +168,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -102,20 +177,20 @@
         }
       }
     },
-    "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao\\Gestao.csproj": {
+    "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Gestao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao\\Gestao.csproj",
+        "projectUniqueName": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Gestao.csproj",
         "projectName": "Gestao",
-        "projectPath": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao\\Gestao.csproj",
-        "packagesPath": "C:\\Users\\kelvin.rocha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao\\obj\\",
+        "projectPath": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Gestao.csproj",
+        "packagesPath": "C:\\Users\\Kelvin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kelvin.rocha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kelvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -131,8 +206,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao.Client\\Gestao.Client.csproj": {
-                "projectPath": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao.Client\\Gestao.Client.csproj"
+              "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao.Domain\\Gestao.Domain.csproj": {
+                "projectPath": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao.Domain\\Gestao.Domain.csproj"
+              },
+              "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\Gestao.Client.csproj": {
+                "projectPath": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\Gestao.Client.csproj"
               }
             }
           }
@@ -154,35 +232,37 @@
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.Facebook": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.AspNetCore.Authentication.Google": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.AspNetCore.Authentication.MicrosoftAccount": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly.Server": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.10, )"
             }
           },
           "imports": [
@@ -204,7 +284,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
