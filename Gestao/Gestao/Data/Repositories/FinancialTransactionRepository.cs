@@ -15,21 +15,29 @@ namespace Gestao.Data.Repositories
         }
 
         //CRUD
-        public async Task<PaginatedList<FinancialTransaction>> GetAll(int companyId, TypeFinancialTransaction type, int pageIndex, int pageSize)
+        public async Task<PaginatedList<FinancialTransaction>> GetAll(int companyId, TypeFinancialTransaction type, int pageIndex, int pageSize, string searchWord = "")
         {
-            var items = await _db.FinancialTransactions.Where(x => x.CompanyId == companyId && x.TypeFinancialTransaction == type)
+            var items = await _db.FinancialTransactions
+                .Where(x => x.CompanyId == companyId && x.TypeFinancialTransaction == type)
+                .Where(x=> x.Description.Contains(searchWord))
                 .Skip((pageIndex - 1) * pageSize)
                 .Take(pageSize)
                 .ToListAsync();
 
-            var count = await _db.FinancialTransactions.Where(x => x.CompanyId == companyId && x.TypeFinancialTransaction == type).CountAsync();
+            var count = await _db.FinancialTransactions
+                .Where(x => x.CompanyId == companyId && x.TypeFinancialTransaction == type)
+                .Where(x => x.Description.Contains(searchWord))
+                .CountAsync();
+
             int totalPages = (int)Math.Ceiling((double)count / pageSize);
 
             return new PaginatedList<FinancialTransaction>(items, pageIndex, totalPages);
         }
         public async Task<FinancialTransaction?> Get(int id)
         {
-            return await _db.FinancialTransactions.Include(x=> x.Documents).SingleOrDefaultAsync(x => x.Id == id);
+            return await _db.FinancialTransactions
+                .OrderByDescending(x => x.ReferenceDate)
+                .Include(x=> x.Documents).SingleOrDefaultAsync(x => x.Id == id);
         }
         public async Task Add(FinancialTransaction entity)
         {

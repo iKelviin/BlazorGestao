@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin\\documents\\github\\blazorgestao\\gestao\\gestao\\data\\repositories\\documentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\data\\repositories\\documentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin\\documents\\github\\blazorgestao\\gestao\\gestao\\data\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\data\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin\\documents\\github\\blazorgestao\\gestao\\gestao\\data\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\data\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin\\documents\\github\\blazorgestao\\gestao\\gestao\\data\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\data\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin\\documents\\github\\blazorgestao\\gestao\\gestao\\data\\repositories\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\data\\repositories\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin\\documents\\github\\blazorgestao\\gestao\\gestao\\data\\repositories\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\data\\repositories\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin\\documents\\github\\blazorgestao\\gestao\\gestao\\data\\repositories\\idocumentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\data\\repositories\\idocumentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin\\documents\\github\\blazorgestao\\gestao\\gestao\\data\\repositories\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\data\\repositories\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin\\documents\\github\\blazorgestao\\gestao\\gestao\\data\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\data\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin\\documents\\github\\blazorgestao\\gestao\\gestao\\data\\repositories\\documentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\data\\repositories\\documentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin\\documents\\github\\blazorgestao\\gestao\\gestao\\data\\repositories\\ifinancialtransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\data\\repositories\\ifinancialtransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin\\documents\\github\\blazorgestao\\gestao\\gestao\\data\\repositories\\financialtransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\data\\repositories\\financialtransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6D386A6-01FB-45AF-9DDC-462D98C91FE2}|Gestao.Domain\\Gestao.Domain.csproj|c:\\users\\kelvin\\documents\\github\\blazorgestao\\gestao.domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,37 +58,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Data\\Repositories\\IAccountRepository.cs",
+              "RelativeDocumentMoniker": "Gestao\\Gestao\\Data\\Repositories\\IAccountRepository.cs",
+              "ToolTip": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Data\\Repositories\\IAccountRepository.cs",
+              "RelativeToolTip": "Gestao\\Gestao\\Data\\Repositories\\IAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T11:25:11.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICompanyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Data\\Repositories\\ICompanyRepository.cs",
+              "RelativeDocumentMoniker": "Gestao\\Gestao\\Data\\Repositories\\ICompanyRepository.cs",
+              "ToolTip": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Data\\Repositories\\ICompanyRepository.cs",
+              "RelativeToolTip": "Gestao\\Gestao\\Data\\Repositories\\ICompanyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T11:25:06.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Data\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Gestao\\Gestao\\Data\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Data\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "Gestao\\Gestao\\Data\\Repositories\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T11:25:02.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDocumentsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Data\\Repositories\\IDocumentsRepository.cs",
+              "RelativeDocumentMoniker": "Gestao\\Gestao\\Data\\Repositories\\IDocumentsRepository.cs",
+              "ToolTip": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Data\\Repositories\\IDocumentsRepository.cs",
+              "RelativeToolTip": "Gestao\\Gestao\\Data\\Repositories\\IDocumentsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T11:25:02.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DocumentsRepository.cs",
               "DocumentMoniker": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Data\\Repositories\\DocumentsRepository.cs",
               "RelativeDocumentMoniker": "Gestao\\Gestao\\Data\\Repositories\\DocumentsRepository.cs",
               "ToolTip": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Data\\Repositories\\DocumentsRepository.cs",
               "RelativeToolTip": "Gestao\\Gestao\\Data\\Repositories\\DocumentsRepository.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAIAwwA0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T18:55:01.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AccountRepository.cs",
               "DocumentMoniker": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Data\\Repositories\\AccountRepository.cs",
               "RelativeDocumentMoniker": "Gestao\\Gestao\\Data\\Repositories\\AccountRepository.cs",
               "ToolTip": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Data\\Repositories\\AccountRepository.cs",
               "RelativeToolTip": "Gestao\\Gestao\\Data\\Repositories\\AccountRepository.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwDkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAB9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T18:44:02.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Data\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Gestao\\Gestao\\Data\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Data\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "Gestao\\Gestao\\Data\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T17:32:34.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IFinancialTransactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Data\\Repositories\\IFinancialTransactionRepository.cs",
+              "RelativeDocumentMoniker": "Gestao\\Gestao\\Data\\Repositories\\IFinancialTransactionRepository.cs",
+              "ToolTip": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Data\\Repositories\\IFinancialTransactionRepository.cs",
+              "RelativeToolTip": "Gestao\\Gestao\\Data\\Repositories\\IFinancialTransactionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAACaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T11:24:55.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FinancialTransactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Data\\Repositories\\FinancialTransactionRepository.cs",
+              "RelativeDocumentMoniker": "Gestao\\Gestao\\Data\\Repositories\\FinancialTransactionRepository.cs",
+              "ToolTip": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Data\\Repositories\\FinancialTransactionRepository.cs",
+              "RelativeToolTip": "Gestao\\Gestao\\Data\\Repositories\\FinancialTransactionRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T11:18:38.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao.Domain\\Category.cs",
               "RelativeDocumentMoniker": "Gestao.Domain\\Category.cs",
@@ -72,25 +187,11 @@
               "RelativeToolTip": "Gestao.Domain\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T18:40:39.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T18:40:39.789Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Data\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "Gestao\\Gestao\\Data\\Repositories\\CategoryRepository.cs",
-              "ToolTip": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Data\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "Gestao\\Gestao\\Data\\Repositories\\CategoryRepository.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAcwDkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T17:32:34.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "PaginatedList.cs",
               "DocumentMoniker": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\Libraries\\Utilities\\PaginatedList.cs",
               "RelativeDocumentMoniker": "Gestao\\Gestao.Client\\Libraries\\Utilities\\PaginatedList.cs",
@@ -102,13 +203,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "CompanyRepository.cs",
               "DocumentMoniker": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Data\\Repositories\\CompanyRepository.cs",
               "RelativeDocumentMoniker": "Gestao\\Gestao\\Data\\Repositories\\CompanyRepository.cs",
               "ToolTip": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Data\\Repositories\\CompanyRepository.cs",
               "RelativeToolTip": "Gestao\\Gestao\\Data\\Repositories\\CompanyRepository.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAIwDMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T13:20:35.833Z",
               "EditorCaption": ""

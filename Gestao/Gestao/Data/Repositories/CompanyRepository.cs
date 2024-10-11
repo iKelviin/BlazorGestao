@@ -14,14 +14,21 @@ namespace Gestao.Data.Repositories
         }
 
         //CRUD
-        public async Task<PaginatedList<Company>> GetAll(Guid ApplicationUserId, int pageIndex, int pageSize)
+        public async Task<PaginatedList<Company>> GetAll(Guid ApplicationUserId, int pageIndex, int pageSize, string? searchWord = "")
         {
-            var items = await _db.Companies.Where(x => x.UserId == ApplicationUserId)
+            var items = await _db.Companies
+                .Where(x => x.UserId == ApplicationUserId)
+                .Where(x=> x.TradeName.Contains(searchWord) || x.LegalName.Contains(searchWord))
+                .OrderBy(x=> x.TradeName)
                 .Skip((pageIndex - 1) * pageSize)
                 .Take(pageSize)
                 .ToListAsync();
 
-            var count = await _db.Companies.Where(x => x.UserId == ApplicationUserId).CountAsync();
+            var count = await _db.Companies
+                .Where(x => x.UserId == ApplicationUserId)
+                .Where(x => x.TradeName.Contains(searchWord) || x.LegalName.Contains(searchWord))
+                .CountAsync();
+
             int totalPages = (int)Math.Ceiling((double)count / pageSize);
 
             return new PaginatedList<Company>(items, pageIndex, totalPages);

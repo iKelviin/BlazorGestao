@@ -2,6 +2,7 @@ using Gestao.Client.Pages;
 using Gestao.Components;
 using Gestao.Components.Account;
 using Gestao.Data;
+using Gestao.Data.Repositories;
 using Gestao.Libraries.Mail;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -16,6 +17,7 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
 
+#region Authentication
 builder.Services.AddCascadingAuthenticationState();
 builder.Services.AddScoped<IdentityUserAccessor>();
 builder.Services.AddScoped<IdentityRedirectManager>();
@@ -43,6 +45,10 @@ builder.Services.AddAuthentication(options =>
     })
     .AddIdentityCookies();
 
+#endregion
+
+#region Database
+
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
@@ -53,6 +59,9 @@ builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.Requ
     .AddSignInManager()
     .AddDefaultTokenProviders();
 
+#endregion
+
+#region Dependecy Injection
 builder.Services.AddSingleton<SmtpClient>(options =>
 {
     var smtp = new SmtpClient();
@@ -68,8 +77,15 @@ builder.Services.AddSingleton<SmtpClient>(options =>
 
     return smtp;
 });
-
 builder.Services.AddSingleton<IEmailSender<ApplicationUser>, EmailSender>();
+
+builder.Services.AddScoped<IAccountRepository,AccountRepository>();
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<ICompanyRepository, CompanyRepository>();
+builder.Services.AddScoped<IFinancialTransactionRepository, FinancialTransactionRepository>();
+builder.Services.AddScoped<IDocumentsRepository, DocumentsRepository>();
+#endregion
+
 
 var app = builder.Build();
 

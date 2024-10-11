@@ -17,6 +17,7 @@ namespace Gestao.Data.Repositories
         public async Task<PaginatedList<Category>> GetAll(int companyId, int pageIndex, int pageSize)
         {
             var items = await _db.Categories.Where(x => x.CompanyId == companyId)
+                .OrderBy(x=> x.Name)
                 .Skip((pageIndex - 1) * pageSize)
                 .Take(pageSize)
                 .ToListAsync();
