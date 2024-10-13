@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hJXSLv1NjoDeqUfod2naHCXfCuk3umtc1XRg1mxBDGI=",
+  "Hash": "+Qsrew51XXC6EKvaifumezhATHJcpmmAfCDqou+C0j4=",
   "Source": "Gestao.Client",
   "BasePath": "/",
   "Mode": "Default",
@@ -17,10 +17,10 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Kelvin\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\8.0.7\\staticwebassets\\AuthenticationService.js",
+      "Identity": "C:\\Users\\Kelvin\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\8.0.10\\staticwebassets\\AuthenticationService.js",
       "SourceId": "Microsoft.AspNetCore.Components.WebAssembly.Authentication",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Kelvin\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\8.0.7\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Kelvin\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\8.0.10\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication",
       "RelativePath": "AuthenticationService.js",
       "AssetKind": "All",
@@ -33,7 +33,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Kelvin\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\8.0.7\\staticwebassets\\AuthenticationService.js"
+      "OriginalItemSpec": "C:\\Users\\Kelvin\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\8.0.10\\staticwebassets\\AuthenticationService.js"
     },
     {
       "Identity": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
@@ -71,7 +71,7 @@
       "AssetTraitValue": "boot",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Kelvin\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\8.0.7\\build\\net8.0\\blazor.webassembly.js"
+      "OriginalItemSpec": "C:\\Users\\Kelvin\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\8.0.10\\build\\net8.0\\blazor.webassembly.js"
     },
     {
       "Identity": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
@@ -4634,6 +4634,25 @@
       "OriginalItemSpec": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.MemoryMappedFiles.wasm"
     },
     {
+      "Identity": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\obj\\Debug\\net8.0\\compressed\\4fi1y3t2qy.gz",
+      "SourceId": "Gestao.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/blazor.webassembly.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js"
+    },
+    {
       "Identity": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\obj\\Debug\\net8.0\\compressed\\4gzu0575ey.gz",
       "SourceId": "Gestao.Client",
       "SourceType": "Computed",
@@ -6361,25 +6380,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Abstractions.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\obj\\Debug\\net8.0\\compressed\\j6cd0ec8o2.gz",
-      "SourceId": "Gestao.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/blazor.webassembly.js.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js"
     },
     {
       "Identity": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\obj\\Debug\\net8.0\\compressed\\k580vp2gj5.gz",

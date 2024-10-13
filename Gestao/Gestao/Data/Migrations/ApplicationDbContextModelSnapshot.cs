@@ -123,11 +123,16 @@ namespace Gestao.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int?>("CompanyId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CompanyId");
 
                     b.ToTable("Categories");
                 });
@@ -192,7 +197,7 @@ namespace Gestao.Migrations
                     b.ToTable("Companies");
                 });
 
-            modelBuilder.Entity("Gestao.Domain.DocumentAttachment", b =>
+            modelBuilder.Entity("Gestao.Domain.Documents", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -211,7 +216,7 @@ namespace Gestao.Migrations
 
                     b.HasIndex("FinancialTransactionId");
 
-                    b.ToTable("DocumentAttachments");
+                    b.ToTable("Documents");
                 });
 
             modelBuilder.Entity("Gestao.Domain.FinancialTransaction", b =>
@@ -268,6 +273,10 @@ namespace Gestao.Migrations
 
                     b.Property<int>("RepeatTimes")
                         .HasColumnType("int");
+
+                    b.Property<string>("TypeFinancialTransaction")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -422,6 +431,15 @@ namespace Gestao.Migrations
                     b.Navigation("Company");
                 });
 
+            modelBuilder.Entity("Gestao.Domain.Category", b =>
+                {
+                    b.HasOne("Gestao.Domain.Company", "Company")
+                        .WithMany()
+                        .HasForeignKey("CompanyId");
+
+                    b.Navigation("Company");
+                });
+
             modelBuilder.Entity("Gestao.Domain.Company", b =>
                 {
                     b.HasOne("Gestao.Data.ApplicationUser", "User")
@@ -431,10 +449,10 @@ namespace Gestao.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Gestao.Domain.DocumentAttachment", b =>
+            modelBuilder.Entity("Gestao.Domain.Documents", b =>
                 {
                     b.HasOne("Gestao.Domain.FinancialTransaction", "FinancialTransaction")
-                        .WithMany("DocumentAttachments")
+                        .WithMany("Documents")
                         .HasForeignKey("FinancialTransactionId");
 
                     b.Navigation("FinancialTransaction");
@@ -514,7 +532,7 @@ namespace Gestao.Migrations
 
             modelBuilder.Entity("Gestao.Domain.FinancialTransaction", b =>
                 {
-                    b.Navigation("DocumentAttachments");
+                    b.Navigation("Documents");
                 });
 #pragma warning restore 612, 618
         }

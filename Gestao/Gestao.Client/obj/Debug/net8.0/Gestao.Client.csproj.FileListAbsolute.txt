@@ -2903,7 +2903,6 @@ C:\Users\Kelvin\Documents\GitHub\BlazorGestao\Gestao\Gestao.Client\obj\Debug\net
 C:\Users\Kelvin\Documents\GitHub\BlazorGestao\Gestao\Gestao.Client\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Gestao.Client.props
 C:\Users\Kelvin\Documents\GitHub\BlazorGestao\Gestao\Gestao.Client\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\Kelvin\Documents\GitHub\BlazorGestao\Gestao\Gestao.Client\obj\Debug\net8.0\scopedcss\bundle\Gestao.Client.styles.css
-C:\Users\Kelvin\Documents\GitHub\BlazorGestao\Gestao\Gestao.Client\obj\Debug\net8.0\compressed\j6cd0ec8o2.gz
 C:\Users\Kelvin\Documents\GitHub\BlazorGestao\Gestao\Gestao.Client\obj\Debug\net8.0\compressed\dbn68m1o6y.gz
 C:\Users\Kelvin\Documents\GitHub\BlazorGestao\Gestao\Gestao.Client\obj\Debug\net8.0\compressed\y5kykdb3xx.gz
 C:\Users\Kelvin\Documents\GitHub\BlazorGestao\Gestao\Gestao.Client\obj\Debug\net8.0\compressed\b2shriuyh0.gz
@@ -3148,3 +3147,4 @@ C:\Users\Kelvin\Documents\GitHub\BlazorGestao\Gestao\Gestao.Client\obj\Debug\net
 C:\Users\Kelvin\Documents\GitHub\BlazorGestao\Gestao\Gestao.Client\obj\Debug\net8.0\compressed\a3f0jp4qsm.gz
 C:\Users\Kelvin\Documents\GitHub\BlazorGestao\Gestao\Gestao.Client\obj\Debug\net8.0\compressed\0o39vza3cx.gz
 C:\Users\Kelvin\Documents\GitHub\BlazorGestao\Gestao\Gestao.Client\obj\Debug\net8.0\compressed\2dhtzdyztp.gz
+C:\Users\Kelvin\Documents\GitHub\BlazorGestao\Gestao\Gestao.Client\obj\Debug\net8.0\compressed\4fi1y3t2qy.gz
