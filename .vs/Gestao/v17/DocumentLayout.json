@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\",
+  "WorkspaceRootPath": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72A3CEBF-FAA2-4471-B6CC-02F553B393EA}|Gestao\\Gestao.Client\\Gestao.Client.csproj|c:\\users\\kelvin.rocha\\documents\\github\\blazor\\blazorgestao\\gestao\\gestao.client\\components\\pagination.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{72A3CEBF-FAA2-4471-B6CC-02F553B393EA}|Gestao\\Gestao.Client\\Gestao.Client.csproj|c:\\users\\kelvin\\documents\\github\\blazorgestao\\gestao\\gestao.client\\components\\pagination.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{72A3CEBF-FAA2-4471-B6CC-02F553B393EA}|Gestao\\Gestao.Client\\Gestao.Client.csproj|solutionrelative:gestao\\gestao.client\\components\\pagination.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72A3CEBF-FAA2-4471-B6CC-02F553B393EA}|Gestao\\Gestao.Client\\Gestao.Client.csproj|c:\\users\\kelvin.rocha\\documents\\github\\blazor\\blazorgestao\\gestao\\gestao.client\\pages\\company\\list.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{72A3CEBF-FAA2-4471-B6CC-02F553B393EA}|Gestao\\Gestao.Client\\Gestao.Client.csproj|c:\\users\\kelvin\\documents\\github\\blazorgestao\\gestao\\gestao.client\\pages\\company\\list.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{72A3CEBF-FAA2-4471-B6CC-02F553B393EA}|Gestao\\Gestao.Client\\Gestao.Client.csproj|solutionrelative:gestao\\gestao.client\\pages\\company\\list.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin.rocha\\documents\\github\\blazor\\blazorgestao\\gestao\\gestao\\components\\pages\\company\\add.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|c:\\users\\kelvin\\documents\\github\\blazorgestao\\gestao\\gestao\\components\\pages\\company\\add.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0495210E-9681-4998-9A4C-631BEB1979F9}|Gestao\\Gestao\\Gestao.csproj|solutionrelative:gestao\\gestao\\components\\pages\\company\\add.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72A3CEBF-FAA2-4471-B6CC-02F553B393EA}|Gestao\\Gestao.Client\\Gestao.Client.csproj|c:\\users\\kelvin.rocha\\documents\\github\\blazor\\blazorgestao\\gestao\\gestao.client\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{72A3CEBF-FAA2-4471-B6CC-02F553B393EA}|Gestao\\Gestao.Client\\Gestao.Client.csproj|c:\\users\\kelvin\\documents\\github\\blazorgestao\\gestao\\gestao.client\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72A3CEBF-FAA2-4471-B6CC-02F553B393EA}|Gestao\\Gestao.Client\\Gestao.Client.csproj|solutionrelative:gestao\\gestao.client\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,57 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:16:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:17:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:18:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:19:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:21:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:23:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:24:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Pagination.razor",
-              "DocumentMoniker": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao.Client\\Components\\Pagination.razor",
+              "DocumentMoniker": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\Components\\Pagination.razor",
               "RelativeDocumentMoniker": "Gestao\\Gestao.Client\\Components\\Pagination.razor",
-              "ToolTip": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao.Client\\Components\\Pagination.razor",
+              "ToolTip": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\Components\\Pagination.razor",
               "RelativeToolTip": "Gestao\\Gestao.Client\\Components\\Pagination.razor",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAswB4AAAA1AAAA",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-15T06:00:34.373Z",
               "EditorCaption": ""
@@ -85,11 +45,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "List.razor",
-              "DocumentMoniker": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao.Client\\Pages\\Company\\List.razor",
+              "DocumentMoniker": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\Pages\\Company\\List.razor",
               "RelativeDocumentMoniker": "Gestao\\Gestao.Client\\Pages\\Company\\List.razor",
-              "ToolTip": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao.Client\\Pages\\Company\\List.razor",
+              "ToolTip": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\Pages\\Company\\List.razor",
               "RelativeToolTip": "Gestao\\Gestao.Client\\Pages\\Company\\List.razor",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAEsAAAAUAAAA",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-14T10:40:47.617Z",
               "EditorCaption": ""
@@ -98,27 +58,25 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Add.razor",
-              "DocumentMoniker": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao\\Components\\Pages\\Company\\Add.razor",
+              "DocumentMoniker": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Components\\Pages\\Company\\Add.razor",
               "RelativeDocumentMoniker": "Gestao\\Gestao\\Components\\Pages\\Company\\Add.razor",
-              "ToolTip": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao\\Components\\Pages\\Company\\Add.razor",
+              "ToolTip": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao\\Components\\Pages\\Company\\Add.razor",
               "RelativeToolTip": "Gestao\\Gestao\\Components\\Pages\\Company\\Add.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T03:48:22.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T03:48:22.279Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "CompanyService.cs",
-              "DocumentMoniker": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao.Client\\Services\\CompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\Services\\CompanyService.cs",
               "RelativeDocumentMoniker": "Gestao\\Gestao.Client\\Services\\CompanyService.cs",
-              "ToolTip": "C:\\Users\\kelvin.rocha\\Documents\\GitHub\\Blazor\\BlazorGestao\\Gestao\\Gestao.Client\\Services\\CompanyService.cs",
+              "ToolTip": "C:\\Users\\Kelvin\\Documents\\GitHub\\BlazorGestao\\Gestao\\Gestao.Client\\Services\\CompanyService.cs",
               "RelativeToolTip": "Gestao\\Gestao.Client\\Services\\CompanyService.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAgwBgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T03:30:52.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T03:30:52.565Z"
             }
           ]
         }

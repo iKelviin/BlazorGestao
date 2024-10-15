@@ -13,47 +13,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = Gestao.Client
 build_property.RootNamespace = Gestao.Client
-build_property.ProjectDir = C:\Users\kelvin.rocha\Documents\GitHub\Blazor\BlazorGestao\Gestao\Gestao.Client\
+build_property.ProjectDir = C:\Users\Kelvin\Documents\GitHub\BlazorGestao\Gestao\Gestao.Client\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\kelvin.rocha\Documents\GitHub\Blazor\BlazorGestao\Gestao\Gestao.Client
+build_property.MSBuildProjectDirectory = C:\Users\Kelvin\Documents\GitHub\BlazorGestao\Gestao\Gestao.Client
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/kelvin.rocha/Documents/GitHub/Blazor/BlazorGestao/Gestao/Gestao.Client/Components/Pagination.razor]
+[C:/Users/Kelvin/Documents/GitHub/BlazorGestao/Gestao/Gestao.Client/Components/Pagination.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdpbmF0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kelvin.rocha/Documents/GitHub/Blazor/BlazorGestao/Gestao/Gestao.Client/Pages/Account/List.razor]
+[C:/Users/Kelvin/Documents/GitHub/BlazorGestao/Gestao/Gestao.Client/Pages/Account/List.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kelvin.rocha/Documents/GitHub/Blazor/BlazorGestao/Gestao/Gestao.Client/Pages/Auth.razor]
+[C:/Users/Kelvin/Documents/GitHub/BlazorGestao/Gestao/Gestao.Client/Pages/Auth.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kelvin.rocha/Documents/GitHub/Blazor/BlazorGestao/Gestao/Gestao.Client/Pages/Category/List.razor]
+[C:/Users/Kelvin/Documents/GitHub/BlazorGestao/Gestao/Gestao.Client/Pages/Category/List.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlcTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kelvin.rocha/Documents/GitHub/Blazor/BlazorGestao/Gestao/Gestao.Client/Pages/Company/List.razor]
+[C:/Users/Kelvin/Documents/GitHub/BlazorGestao/Gestao/Gestao.Client/Pages/Company/List.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGFueVxMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kelvin.rocha/Documents/GitHub/Blazor/BlazorGestao/Gestao/Gestao.Client/Pages/Financial/Pay/List.razor]
+[C:/Users/Kelvin/Documents/GitHub/BlazorGestao/Gestao/Gestao.Client/Pages/Financial/Pay/List.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmluYW5jaWFsXFBheVxMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kelvin.rocha/Documents/GitHub/Blazor/BlazorGestao/Gestao/Gestao.Client/Pages/Financial/Receive/List.razor]
+[C:/Users/Kelvin/Documents/GitHub/BlazorGestao/Gestao/Gestao.Client/Pages/Financial/Receive/List.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmluYW5jaWFsXFJlY2VpdmVcTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kelvin.rocha/Documents/GitHub/Blazor/BlazorGestao/Gestao/Gestao.Client/RedirectToLogin.razor]
+[C:/Users/Kelvin/Documents/GitHub/BlazorGestao/Gestao/Gestao.Client/RedirectToLogin.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVkaXJlY3RUb0xvZ2luLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kelvin.rocha/Documents/GitHub/Blazor/BlazorGestao/Gestao/Gestao.Client/_Imports.razor]
+[C:/Users/Kelvin/Documents/GitHub/BlazorGestao/Gestao/Gestao.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

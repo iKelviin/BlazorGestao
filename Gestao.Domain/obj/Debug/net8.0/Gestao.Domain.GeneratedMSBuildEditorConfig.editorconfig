@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Gestao.Domain
-build_property.ProjectDir = C:\Users\kelvin.rocha\Documents\GitHub\Blazor\BlazorGestao\Gestao.Domain\
+build_property.ProjectDir = C:\Users\Kelvin\Documents\GitHub\BlazorGestao\Gestao.Domain\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
