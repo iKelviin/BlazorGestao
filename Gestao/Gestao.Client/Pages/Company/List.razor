@@ -2,23 +2,26 @@
 
 @attribute [Authorize]
 @rendermode InteractiveAuto
+@inject ICompanyRepository repository
+@inject AuthenticationStateProvider provider
+@inject IConfiguration configuration
 
 
 <div class="card">
     <div class="card-header align-items-center d-flex">
         <h4 class="card-title mb-0 flex-grow-1">Empresas</h4>
         <div class="flex-shrink-0">
-            <button type="button" class="btn btn-soft-info btn-sm material-shadow-none">
+            <a href="/Company/Add" type="button" class="btn btn-soft-info btn-sm material-shadow-none">
                 <i class="ri-file-list-3-line align-middle"></i> Cadastrar
-            </button>
+            </a>
         </div>
     </div>
     <div class="card-body">
         <div class="row">
             <div class="col-lg-6">
                 <div class="input-group">
-                    <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2" placeholder="Buscar...">
-                    <button class="btn btn-outline-success material-shadow-none" type="button" id="button-addon2">Pesquisar</button>
+                    <input type="text" class="form-control" placeholder="Buscar..." @bind="SearchWord">
+                    <button class="btn btn-outline-success material-shadow-none" type="button" @onclick="OnSearch">Pesquisar</button>
                 </div>
             </div>
         </div>
@@ -33,53 +36,95 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>
-                            <a href="apps-ecommerce-order-details.html" class="fw-medium link-primary">Mercado Rocha</a>
-                        </td>
-                        <td>
-                           464.627.898-75
-                        </td>
-                        <td>Rua Ofelia Alves</td>
-                        <td>
-                            <a href="#" class="btn btn-sm btn-primary btn-success">Selecionar</a>
-                            <a href="#" class="btn btn-sm btn-info">Editar <i class="ri-pencil-fill"></i></a>
-                            <a href="#" class="btn btn-sm btn-danger">Excluir <i class="ri-delete-bin-fill"></i></a>
-                        </td>
-                        
-                    </tr><!-- end tr -->                    
-                </tbody><!-- end tbody -->
-            </table><!-- end table -->
+                    @if (Paginated == null)
+                    {
+                        <tr>
+                            <td colspan="4">Carregando...</td>
+                        </tr>
+                    }
+                    else if (Paginated.Items.Count == 0)
+                    {
+                        <tr>
+                            <td colspan="4">Nenhum registo!</td>
+                        </tr>
+                    }
+                    else
+                    {
+                        @foreach (var item in Paginated.Items)
+                        {
+                            <tr>
+                                <td>
+                                    @item.TradeName
+                                </td>
+                                <td>
+                                    @item.TaxId
+                                </td>
+                                <td>
+                                    @item.Address
+                                </td>
+                                <td>
+                                    <a href="#" class="btn btn-sm btn-primary btn-soft-success"><i class="ri-arrow-right-fill"></i> Selecionar</a>
+                                    <a href="#" class="btn btn-sm btn-soft-info"><i class="ri-pencil-fill"></i> Editar</a>
+                                    <a href="#" class="btn btn-sm btn-soft-danger"><i class="ri-delete-bin-fill"></i> Excluir</a>
+                                </td>
+
+                            </tr>
+
+                        }
+                    }
+                </tbody>
+            </table>
         </div>
-        <div class="align-items-center mt-4 pt-2 justify-content-between row text-center text-sm-start">
-            <div class="col-sm">
-                <div class="text-muted">
-                    Showing <span class="fw-semibold">5</span> of <span class="fw-semibold">25</span> Results
-                </div>
-            </div>
-            <div class="col-sm-auto  mt-3 mt-sm-0">
-                <ul class="pagination pagination-separated pagination-sm mb-0 justify-content-center">
-                    <li class="page-item disabled">
-                        <a href="#" class="page-link">←</a>
-                    </li>
-                    <li class="page-item">
-                        <a href="#" class="page-link">1</a>
-                    </li>
-                    <li class="page-item active">
-                        <a href="#" class="page-link">2</a>
-                    </li>
-                    <li class="page-item">
-                        <a href="#" class="page-link">3</a>
-                    </li>
-                    <li class="page-item">
-                        <a href="#" class="page-link">→</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        @if (Paginated != null && Paginated.Items.Count > 0)
+        {
+            <Pagination Paginated="@Paginated" OnPageChanged="OnPageChanged" />
+
+        }
     </div>
 </div>
 
 @code {
+    private Guid ApplicationUserId;
+    private int PageIndex = 1;
+    private int PageSize;
+    private string SearchWord = string.Empty;
 
+    private PaginatedList<Company>? Paginated;
+
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        PageSize = configuration.GetValue<int>("Pagination:PageSize");
+        await GetAuthenticationUserId();
+        await LoadDataAsync();
+    }
+
+    private async Task OnSearch()
+    {
+        PageIndex = 1;
+        await LoadDataAsync();
+    }
+
+    private async Task OnPageChanged(int pageNumber)
+    {
+        PageIndex = pageNumber;
+        await LoadDataAsync();
+    }
+
+    private async Task LoadDataAsync()
+    {
+        Paginated = await repository.GetAll(ApplicationUserId, PageIndex, PageSize, SearchWord);
+    }
+
+    private async Task GetAuthenticationUserId()
+    {
+        var authenticationState = await provider.GetAuthenticationStateAsync();
+        var userId = authenticationState.User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier);
+
+        if (userId != null)
+        {
+            Guid.TryParse(userId.Value, out ApplicationUserId);
+        }
+    }
 }

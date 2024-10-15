@@ -523,3 +523,10 @@ C:\Users\Kelvin\Documents\GitHub\BlazorGestao\Gestao\Gestao\bin\Debug\net8.0\Ges
 C:\Users\Kelvin\Documents\GitHub\BlazorGestao\Gestao\Gestao\bin\Debug\net8.0\Gestao.Domain.pdb
 C:\Users\Kelvin\Documents\GitHub\BlazorGestao\Gestao\Gestao\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
 C:\Users\Kelvin\Documents\GitHub\BlazorGestao\Gestao\Gestao\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\kelvin.rocha\Documents\GitHub\Blazor\BlazorGestao\Gestao\Gestao\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\kelvin.rocha\Documents\GitHub\Blazor\BlazorGestao\Gestao\Gestao\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\kelvin.rocha\Documents\GitHub\Blazor\BlazorGestao\Gestao\Gestao\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\kelvin.rocha\Documents\GitHub\Blazor\BlazorGestao\Gestao\Gestao\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\kelvin.rocha\Documents\GitHub\Blazor\BlazorGestao\Gestao\Gestao\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\kelvin.rocha\Documents\GitHub\Blazor\BlazorGestao\Gestao\Gestao\bin\Debug\net8.0\Gestao.Domain.dll
+C:\Users\kelvin.rocha\Documents\GitHub\Blazor\BlazorGestao\Gestao\Gestao\bin\Debug\net8.0\Gestao.Domain.pdb

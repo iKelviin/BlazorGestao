@@ -1,4 +1,4 @@
-﻿using Gestao.Client.Libraries.Utilities;
+﻿using Gestao.Domain.Repositories;
 using Gestao.Domain;
 using Microsoft.EntityFrameworkCore;
 
