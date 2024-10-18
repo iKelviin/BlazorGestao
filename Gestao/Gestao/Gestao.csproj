@@ -8,6 +8,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Components\Pages\Account\**" />
+    <Compile Remove="Components\Pages\Category\**" />
+    <Compile Remove="Components\Pages\Financial\**" />
+    <Content Remove="Components\Pages\Account\**" />
+    <Content Remove="Components\Pages\Category\**" />
+    <Content Remove="Components\Pages\Financial\**" />
+    <EmbeddedResource Remove="Components\Pages\Account\**" />
+    <EmbeddedResource Remove="Components\Pages\Category\**" />
+    <EmbeddedResource Remove="Components\Pages\Financial\**" />
+    <None Remove="Components\Pages\Account\**" />
+    <None Remove="Components\Pages\Category\**" />
+    <None Remove="Components\Pages\Financial\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\Gestao.Domain\Gestao.Domain.csproj" />
     <ProjectReference Include="..\Gestao.Client\Gestao.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="8.0.10" />
@@ -27,12 +42,6 @@
     <Content Update="appsettings.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Components\Pages\Account\" />
-    <Folder Include="Components\Pages\Category\" />
-    <Folder Include="Components\Pages\Financial\" />
   </ItemGroup>
 
 </Project>

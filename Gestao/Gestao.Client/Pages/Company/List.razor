@@ -2,9 +2,9 @@
 
 @attribute [Authorize]
 @rendermode InteractiveAuto
-@inject ICompanyRepository repository
-@inject AuthenticationStateProvider provider
-@inject IConfiguration configuration
+@inject ICompanyRepository CompanyRepository
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject IConfiguration Configuration
 
 
 <div class="card">
@@ -64,7 +64,7 @@
                                 </td>
                                 <td>
                                     <a href="#" class="btn btn-sm btn-primary btn-soft-success"><i class="ri-arrow-right-fill"></i> Selecionar</a>
-                                    <a href="#" class="btn btn-sm btn-soft-info"><i class="ri-pencil-fill"></i> Editar</a>
+                                    <a href="/Company/Edit/@item.Id" class="btn btn-sm btn-soft-info"><i class="ri-pencil-fill"></i> Editar</a>
                                     <a href="#" class="btn btn-sm btn-soft-danger"><i class="ri-delete-bin-fill"></i> Excluir</a>
                                 </td>
 
@@ -75,11 +75,7 @@
                 </tbody>
             </table>
         </div>
-        @if (Paginated != null && Paginated.Items.Count > 0)
-        {
-            <Pagination Paginated="@Paginated" OnPageChanged="OnPageChanged" />
-
-        }
+        <Pagination Paginated="@Paginated" OnPageChanged="OnPageChanged" />
     </div>
 </div>
 
@@ -95,8 +91,8 @@
 
     protected override async Task OnInitializedAsync()
     {
-        PageSize = configuration.GetValue<int>("Pagination:PageSize");
-        await GetAuthenticationUserId();
+        PageSize = Configuration.GetValue<int>("Pagination:PageSize");
+        ApplicationUserId = (await AuthenticationHelper.GetAuthenticationUserIdAsync(AuthenticationStateProvider)).Value;
         await LoadDataAsync();
     }
 
@@ -114,17 +110,7 @@
 
     private async Task LoadDataAsync()
     {
-        Paginated = await repository.GetAll(ApplicationUserId, PageIndex, PageSize, SearchWord);
+        Paginated = await CompanyRepository.GetAll(ApplicationUserId, PageIndex, PageSize, SearchWord);
     }
-
-    private async Task GetAuthenticationUserId()
-    {
-        var authenticationState = await provider.GetAuthenticationStateAsync();
-        var userId = authenticationState.User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier);
-
-        if (userId != null)
-        {
-            Guid.TryParse(userId.Value, out ApplicationUserId);
-        }
-    }
+   
 }

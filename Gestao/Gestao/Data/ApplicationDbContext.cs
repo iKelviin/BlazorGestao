@@ -20,6 +20,8 @@ namespace Gestao.Data
             builder.Entity<FinancialTransaction>().Property(a => a.Repeat).HasConversion<string>();
 
             builder.Entity<FinancialTransaction>().Property(a => a.TypeFinancialTransaction).HasConversion<string>();
+
+            builder.Entity<Company>().HasIndex(x => x.TaxId).IsUnique();
         }
     }
 }
